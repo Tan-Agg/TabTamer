@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TabTamer Tracker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        width: 300px;
+      }
+      #advice {
+        white-space: pre-wrap;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>TabTamer Advice 💡</h3>
+    <div id="advice">Loading your advice clearly...</div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        chrome.storage.local.get("advice", (data) => {
+          document.getElementById("advice").textContent =
+            data.advice || "No advice yet, check back soon!";
+        });
+      });
+    </script>
+  </body>
+</html>
