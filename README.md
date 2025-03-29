@@ -66,10 +66,8 @@ All Tabs → Listed in a readable table format
 
 🤖 AI Gemini Advice → Personalized, witty tips
 
-### IMPORTANT
+## 🛑 IMPORTANT: Enable Gemini AI
 ---
-
-## 🔐 Using Gemini AI (Optional, but Fun 😄)
 
 Want TabTamer to give you real-time AI-generated advice on what tabs to close and how productive you really are?
 
