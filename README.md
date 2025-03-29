@@ -44,7 +44,7 @@ Are you drowning in a sea of browser tabs?
 git clone https://github.com/YOUR_USERNAME/tabtamer.git
 cd tabtamer
 
-2. Install Backend Dependencies
+### 2. Install Backend Dependencies
 bash
 Copy
 Edit
@@ -65,3 +65,32 @@ Top 10 Tabs → Displayed as a colorful histogram
 All Tabs → Listed in a readable table format
 
 🤖 AI Gemini Advice → Personalized, witty tips
+
+### IMPORTANT
+---
+
+## 🔐 Using Gemini AI (Optional, but Fun 😄)
+
+Want TabTamer to give you real-time AI-generated advice on what tabs to close and how productive you really are?
+
+Follow these steps to enable AI integration:
+
+1. Go to 👉 [Google AI Studio](https://aistudio.google.com/app/apikey)
+2. Sign in with your Google account
+3. Click on **“Create API key”**
+4. Copy the generated key
+
+---
+
+### 🛠️ Replit Users
+
+1. On Replit, open the 🔒 **Secrets (Environment Variables)** tab  
+2. Add a new entry:
+   - **Key**: `GEMINI_API_KEY`
+   - **Value**: *paste your Gemini API key here*
+
+That’s it! 🎉 AI advice will now show up on your dashboard every minute.
+
+> ✅ If you don’t provide a key, the rest of TabTamer still works perfectly — you’ll just see a placeholder message in the AI advice box.
+
+---
