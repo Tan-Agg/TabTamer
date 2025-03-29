@@ -69,7 +69,7 @@ python app.py
 
 ---
 
-## 🛑 IMPORTANT: Enable Gemini AI (Optional but Awesome 😎)
+## 🛑 IMPORTANT: Enable Gemini AI (😎)
 
 > Want TabTamer to give you real-time AI-generated advice on what tabs to close and how productive you really are?
 
