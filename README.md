@@ -36,42 +36,44 @@ Are you drowning in a sea of browser tabs?
 | Styling           | CSS + dark mode aesthetics    |
 
 ---
-
 ## 🧪 How to Run This
 
 ### 🔌 1. Clone the Repo
 ```bash
 git clone https://github.com/YOUR_USERNAME/tabtamer.git
 cd tabtamer
+```
 
-### 2. Install Backend Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-
-
-3. Start Flask Server
-bash
-Copy
-Edit
-python app.py
-
-
-🔍 Output Preview
-🎯 Web Dashboard (/realtime-summary)
-Top 10 Tabs → Displayed as a colorful histogram
-
-All Tabs → Listed in a readable table format
-
-🤖 AI Gemini Advice → Personalized, witty tips
-
-## 🛑 IMPORTANT: Enable Gemini AI
 ---
 
-Want TabTamer to give you real-time AI-generated advice on what tabs to close and how productive you really are?
+### ⚙️ 2. Install Backend Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-Follow these steps to enable AI integration:
+---
+
+### ▶️ 3. Start Flask Server
+```bash
+python app.py
+```
+
+---
+
+## 🔍 Output Preview
+
+- 🎯 **Web Dashboard** → Visit `/realtime-summary`
+- 📊 **Top 10 Tabs** → Displayed as a colorful histogram
+- 📋 **All Tabs** → Listed in a readable table format
+- 🤖 **Gemini AI Advice** → Personalized, witty tips (if AI key is added)
+
+---
+
+## 🛑 IMPORTANT: Enable Gemini AI (Optional but Awesome 😎)
+
+> Want TabTamer to give you real-time AI-generated advice on what tabs to close and how productive you really are?
+
+### 🔐 How to Get Your Gemini API Key
 
 1. Go to 👉 [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. Sign in with your Google account
@@ -80,15 +82,15 @@ Follow these steps to enable AI integration:
 
 ---
 
-### 🛠️ Replit Users
+### 🛠️ For Replit Users
 
-1. On Replit, open the 🔒 **Secrets (Environment Variables)** tab  
-2. Add a new entry:
+1. Open the 🔒 **Secrets (Environment Variables)** tab  
+2. Add a new secret:
    - **Key**: `GEMINI_API_KEY`
-   - **Value**: *paste your Gemini API key here*
+   - **Value**: *your Gemini API key here*
 
 That’s it! 🎉 AI advice will now show up on your dashboard every minute.
 
-> ✅ If you don’t provide a key, the rest of TabTamer still works perfectly — you’ll just see a placeholder message in the AI advice box.
-
----
+> ✅ **Note:** If you skip this, the rest of TabTamer still works!  
+> You’ll just see a placeholder error in the AI advice box like:  
+> `⚠️ Gemini Error: No API key found`
