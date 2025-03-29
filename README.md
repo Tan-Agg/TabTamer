@@ -91,6 +91,3 @@ python app.py
 
 That’s it! 🎉 AI advice will now show up on your dashboard every minute.
 
-> ✅ **Note:** If you skip this, the rest of TabTamer still works!  
-> You’ll just see a placeholder error in the AI advice box like:  
-> `⚠️ Gemini Error: No API key found`
